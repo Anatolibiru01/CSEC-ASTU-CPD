@@ -1,7 +1,11 @@
-n = int(input())
-k = 0
-for _ in range(n):
-    m = sum(list(map(int, input().split())))
-    if m >= 2:
-        k += 1
-print(k)
+n, h = map(int, input().split())
+a = list(map(int, input().split()))
+ 
+count = 0
+for _ in a:
+    if h >= _:
+        count += 1
+    else:
+        count += 2
+ 
+print(count)
