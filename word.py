@@ -1,4 +1,4 @@
-#c++ solution:  
+#c++ solution: https://github.com/Anatolibiru01/Code_Force_Solutions/blob/master/800/A_word.cpp
 
 import string
 s = input()
